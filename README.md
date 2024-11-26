@@ -109,3 +109,5 @@ where in the tide cycle we are. Rez a cube prim and place this script inside:
 The cube will whisper info about the current tide position every time the tide is updated.
 
 If you have any question please contact Jak Daniels, jak@ateb.co.uk
+
+When have compile errors with latest opensim version might need to add <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute> to the first PropertyGroup in OpenSimeTRide.Module.csproj. To avoid "Error CS0579 Duplicate 'global::System.Runtime.Versioning.TargetFrameworkAttribute'"  Not sure how to do this through prebuild.xml...
