@@ -13,8 +13,7 @@ using OpenSim.Region.Framework.Scenes;
 using OpenMetaverse;
 using Mono.Addins;
 
-[assembly: Addin("OpenSimTide", "0.2")]
-[assembly: AddinDependency("OpenSim.Region.Framework", OpenSim.VersionInfo.VersionNumber)]
+
 
 namespace TideModule
 {
